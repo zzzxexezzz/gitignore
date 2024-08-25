@@ -1,1 +1,6 @@
-git branch
+git branch  - список доступных веток
+git branch branch_name - создание новой ветки с именем "branch_name".
+git checkout branch_name - переключение на существующую ветку "branch_name" или git switch branch_name
+git branch -d branch_name - удаление ветки с именем branch_name (если ветка слита с другими ветка)
+git branch -D branch_name - удаление ветки с именем branch_name (если ветка НЕ слита с другими ветка)
+git branch -m(M) new_branch_name - переименовать ветку(выдаст ошибку если ветка с таким именем уже есть). M - перезапишет данные без каких то оповещений.
